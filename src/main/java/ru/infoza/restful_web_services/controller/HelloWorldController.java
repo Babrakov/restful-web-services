@@ -1,9 +1,6 @@
 package ru.infoza.restful_web_services.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloWorldController {
@@ -16,6 +13,11 @@ public class HelloWorldController {
     @GetMapping( "/hello-bean")
     public HelloWorldBean sayHelloBean() {
         return new HelloWorldBean("Hello World!");
+    }
+
+    @GetMapping( "/hello-bean/path-variable/{name}")
+    public HelloWorldBean sayHelloBeanPathVariable(@PathVariable String name) {
+        return new HelloWorldBean(String.format("Hello World, %s!", name));
     }
 
 }
