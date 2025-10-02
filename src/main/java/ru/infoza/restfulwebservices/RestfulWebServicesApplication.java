@@ -1,4 +1,4 @@
-package ru.infoza.restful_web_services;
+package ru.infoza.restfulwebservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

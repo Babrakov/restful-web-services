@@ -1,4 +1,4 @@
-package ru.infoza.restful_web_services.user;
+package ru.infoza.restfulwebservices.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-package ru.infoza.restful_web_services;
+package ru.infoza.restfulwebservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

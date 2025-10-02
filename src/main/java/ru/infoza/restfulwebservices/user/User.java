@@ -1,8 +1,7 @@
-package ru.infoza.restful_web_services.user;
+package ru.infoza.restfulwebservices.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDate;
 

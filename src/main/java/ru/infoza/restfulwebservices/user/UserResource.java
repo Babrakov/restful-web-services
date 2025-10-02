@@ -1,4 +1,4 @@
-package ru.infoza.restful_web_services.user;
+package ru.infoza.restfulwebservices.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

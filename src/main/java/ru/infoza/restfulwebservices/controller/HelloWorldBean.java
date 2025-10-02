@@ -1,4 +1,4 @@
-package ru.infoza.restful_web_services.controller;
+package ru.infoza.restfulwebservices.controller;
 
 public class HelloWorldBean {
 
