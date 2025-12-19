@@ -42,10 +42,10 @@ public class UserResource {
 
     @PostMapping("/users")
     public ResponseEntity<User> createUser(@Valid @RequestBody User user) {
-        User saveUser = userDaoService.save(user);
+        User savedUser = userDaoService.save(user);
         URI location = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}")
-                .buildAndExpand(saveUser.getId())
+                .buildAndExpand(savedUser.getId())
                 .toUri();
         return ResponseEntity.created(location).build();
     }

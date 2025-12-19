@@ -5,7 +5,9 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class PersonV2 {
+public class Name {
 
-    private Name name;
+    private String firstName;
+    private String lastName;
+
 }
